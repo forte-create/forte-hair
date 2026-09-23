@@ -1,0 +1,127 @@
+
+/* 基本設定 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Yu Gothic", sans-serif;
+  background-color: #fffaf9;
+  color: #594545;
+  line-height: 1.8;
+}
+
+
+/* ヘッダー */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 8%;
+  background-color: #ffffff;
+}
+
+.logo {
+  color: #c98f9b;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+nav a {
+  margin-left: 20px;
+  color: #594545;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+
+/* メインビジュアル */
+
+.hero {
+  padding: 120px 20px;
+  text-align: center;
+  background-color: #f9e9e9;
+}
+
+.hero-subtitle {
+  color: #c98f9b;
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+
+.hero h2 {
+  font-size: 42px;
+  font-weight: normal;
+  line-height: 1.6;
+  letter-spacing: 4px;
+}
+
+.hero p {
+  font-size: 15px;
+}
+
+
+/* ボタン */
+
+.reserve-button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 35px;
+  background-color: #c98f9b;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+
+/* 各セクション */
+
+.section {
+  padding: 90px 20px;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section-label {
+  color: #c98f9b;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.section h2 {
+  font-size: 28px;
+  font-weight: normal;
+}
+
+
+/* フッター */
+
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: #f9e9e9;
+  font-size: 12px;
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 50px 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .map iframe {
+    width: 100%;
+    height: 300px;
+  }
+}
