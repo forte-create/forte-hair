@@ -125,3 +125,29 @@ footer {
     height: 300px;
   }
 }
+
+#menu .menu{
+  width:fit-content;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#menu .menu {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#menu .menu > div {
+  display: flex;
+  justify-content: space-between;
+  width: 360px;
+  padding: 8px 0;
+}
+
+#menu .menu span:first-child {
+  text-align: left;
+}
+
+#menu .menu span:last-child {
+  text-align: right;
+}
